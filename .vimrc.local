@@ -1,1 +1,5 @@
-noremap <F8> :PymodeLintAuto<CR>
+nmap gm :LivedownToggle<CR>
+let g:livedown_autorun = 1
+let g:livedown_open = 1
+let g:livedown_port = 8080
+
